@@ -45,16 +45,16 @@ public class ShoppingCart{
     @When("^I sign in$")
     public void i_sign_in() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-    	PageFactory.initElements(driver, AutomationHomePage.class);
+    /*	PageFactory.initElements(driver, AutomationHomePage.class);
 		PageFactory.initElements(driver, LoginPage.class);
 
-		SignInAction.Execute(driver,datamap.get(0));
+		SignInAction.Execute(driver,datamap.get(0));*/
     }
 
     @Then("^I sign out$")
     public void i_sign_out() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-    	SignoutAction.Execute(driver);
+    //	SignoutAction.Execute(driver);
     }
     
 }
